@@ -1,0 +1,31 @@
+/*armstrong by using method & creating object*/
+class arm_func_oc_1
+{
+ int armstrong(int x)
+ {
+ int rem,sum=0;
+ while(x!=0)
+ {
+ rem=x%10;
+ sum=sum+pow(rem);
+ x=x/10;
+ }
+ return sum;
+ }
+ int pow(int y)
+ {
+ int c;
+ c=(y*y*y);
+ return c;
+ }
+ void main(int n)
+ {
+ int k;
+ arm_func_oc_1 sc=new arm_func_oc_1();
+ k=sc.armstrong(n);
+ if(k==n)
+ System.out.println("armstrong no");
+ else
+ System.out.println("not armstrong no");
+ }
+}
