@@ -1,0 +1,19 @@
+/*pre-post increment*/
+import java.util.Scanner;
+public class pre_post_increament
+{
+ public static void main(String args[])
+ {
+ int x,y,z,a,b;
+ System.out.println("enter the values of x & y");
+ Scanner sc=new Scanner(System.in);
+ x=sc.nextInt();
+ y=sc.nextInt();
+ System.out.println("the result of (x++)+(++y) ,x++,y++ are following");
+ z=(x++)+(++y);
+ System.out.println(z);
+ System.out.println(x);
+ System.out.println(y);
+ 
+ }
+}
