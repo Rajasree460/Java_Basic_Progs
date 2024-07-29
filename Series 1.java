@@ -1,4 +1,4 @@
-Series 1
+//Series 1
 /*1+(1/4)+(1/9)+(1/16)+.....upto n*/
 import java.util.*;
 public class s_1
